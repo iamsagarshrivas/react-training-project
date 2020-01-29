@@ -1,8 +1,11 @@
 import React from 'react'
 // import Form from './Form'
 // import Router from './Router'
-import AuthGuard from './AuthGuard'
+// import AuthGuard from './AuthGuard'
 // import axios from './utils/axios'
+// import HOCExample from "./HOC";
+// import LiftingState from './LiftingState'
+import Counter from './ReduxComponents'
 
 class App extends React.Component {
 
@@ -19,7 +22,7 @@ class App extends React.Component {
 		return (
 			<>
 				<h1>App component</h1>
-				<AuthGuard />
+				<Counter />
 {/* 				
 				<button onClick={this.changePost}>Change post</button>
 
